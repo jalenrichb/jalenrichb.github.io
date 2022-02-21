@@ -1,0 +1,65 @@
+/*
+Author: Jalen Richburg
+File Name: styles.css
+Date: 02/02/2022
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, img, h1, h3 ,ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main h1{
+  text-align: center;
+  font-family: Copperplate;
+  color: #FBEEC1;
+  padding-bottom: 2%;
+}
+
+body{
+  background-color: #ce8b54;
+}
+
+nav {
+  background-color: #96613d;
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav li a{
+  font-family: Copperplate;
+  color: #FBEEC1;
+  text-decoration: none;
+}
+
+main{
+  text-align: center;
+  font-family: Copperplate;
+  color: #FBEEC1;
+  padding-top: 2%;
+}
+
+img{
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 2%
+}
