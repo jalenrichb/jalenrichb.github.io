@@ -11,12 +11,14 @@ body, header, nav, main, footer, img, h1, h3 ,ul{
   border: 0;
 }
 
+/* Basic Style Rules */
 main h1{
   text-align: center;
   font-family: Copperplate;
   color: #FBEEC1;
   padding-bottom: 2%;
 }
+
 
 body{
   background-color: #ce8b54;
@@ -62,4 +64,37 @@ img{
   margin-right: auto;
   width: 50%;
   padding-top: 2%
+}
+
+/* LinkedIn Badge Style Rule*/
+.badge-base, .LI-profile-badge{
+  float: center;
+}
+
+/* aside Style rules */
+aside {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #FBEEC1;;
+}
+
+aside p {
+  margin: .5rem;
+}
+
+/* Image grid Style Rules*/
+.column{
+  display: block;
+  float: left;
+  max-width: 33.3%;
+}
+
+.column img{
+  max-width: 100%;
+}
+
+.column video{
+  max-width: 75%;
 }

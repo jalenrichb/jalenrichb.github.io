@@ -4,7 +4,7 @@
 	<title>My Projects</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">	
 </head>
 <body>
 	<nav>
@@ -12,16 +12,46 @@
 	<li><a href="index.html">Home</a></li>
 	<li><a href="projects.html">Projects</a></li>
 	<li><a href="resume.html">Resume</a></li>
-	
 	</ul>
 	</nav>
 
 	<main>
 	<h1>Projects</h1>
-	<img src="images/RoS2.gif" alt="Rhea of Sunshine 2" class="center">
-	<h3>Rhea of Sunshine 2</h3>
-	<img src="gpa_calc.png" alt="GPA Calculator" class="center">
-	<h3>GPA Calculator</h3>
+
+		<div class="column">
+		<img src="images/RoS2.gif" alt="Rhea of Sunshine 2" class="center">
+		<h3>Rhea of Sunshine 2</h3>
+		<p id="description">Rhea of Sunshine, a Valentine's Day game created 
+			using C#, follows me, Jalen, and the pursuit of Rhea's love. 
+			I thoroughly enjoyed making this game as it exposed me to new 
+			technologies. Picking it up was quite simple as C#, and 
+			C++(my primary language) are based on C.</p>
+
+		<p>Created: Feb, 2022</p>
+
+		<video controls muted loop autoplay>
+			<source src="media/Beta_Gameplay.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		</div>
+
+		<div class="column">
+		<img src="images/gpa_calc.png" alt="GPA Calculator" class="center">
+		<h3>GPA Calculator</h3>
+		<p>GPA Calculator uses C++ to calculate a Grade Point Average once 
+			entering classes and their credits. Once all information has 
+			been inputted, it will output a simple report card with the 
+			student's name, student ID, etc. I use this program when tracking 
+			my grades since my school didn't have a mid-semester GPA tracker.</p>
+
+			<p>Created: Nov, 2021</p>
+		</div>
+
+		<div class="column">
+		<img src="images/properties.jpeg" alt="Property Manager" class="center">
+		<h3>Property Manager</h3>
+		</div>
+	
 	</main>
 </body>
 </html>
